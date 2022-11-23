@@ -1,0 +1,196 @@
+<!-- Code Written By Ahmad Zaki -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Coffee Houz Cafe</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/png" href="images/icon.png"/>
+</head>
+<body>
+  <div class="navbar">
+    <img src="images/logo1.png" class="logo">
+      <nav>
+          <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li> <a href="menu.html">MENU</a></li>
+            <li><a href="promotion.html">PROMOTIONS</a></li>
+            <li><a href="about.html" class="active">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="quotes.html">&#11088</a></li>
+          </ul>
+      </nav>
+  </div>
+    
+  <div class="header">
+    <img src="images/about.jpg" class="image">
+  </div>
+
+  <div class="section">
+    <h1 id="ourcompany">Our Company</h1>
+  </div>
+    
+  <div class="row hover">
+    <div class="left">
+      <figure><img src="images/company1.jpeg" class="image"></figure>
+    </div>
+    <div class="right" style="background-color: #36384c;">
+      <h3>COFFEE HOUZ CAFE</h3>
+      <h4>is owned and operated by</h4>
+      <h3>COFFEE HOUZ CAFE SDN. BHD.</h3>
+      <p style="color: #e9dccd;">
+        <br>The Company is guided by its firm belief in ensuring consistent supply of quality products and providing excellent service to its customers, 
+        and is steered by dedicated team to continuously achieve the organizational Vision and Mission.
+      </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="left" style="background-color: #613a43;">
+      <h4>VISION</h4>
+      <p style="color: #e9dccd;">To position ourselves as a premier coffee shop chain with a global presence.</p>
+    </div>
+    <div class="right" style="background-color: #613a43;">
+      <h4>MISSION</h4>
+      <p style="color: #e9dccd;">To continuously grow through innovation and dedication to excellence.</p>  
+    </div>
+  </div>
+  
+  <div class="section">
+    <h1 id="ourproducts">Our Products</h1>
+  </div>
+
+  <div class="row">
+    <div class="left">
+      <img class="image4" src="images/product1.jpg">
+      <img class="image4" src="images/product2.jpg">
+      <img class="image4" src="images/product3.jpg">
+      <img class="image4" src="images/product4.jpg">
+      <img class="image4" src="images/product5.jpg">
+      <img class="image4" src="images/product6.jpg">
+    </div>
+    <div class="right" style="background-color: #36384c;">
+      <p style="color: #e9dccd;">
+        <br>Our brand is focused on coffee first and foremost.<br>
+        We offer different varieties of coffee developed by experts and made from the best beans, 
+        combined to obtain blends that will satisfy even the most demanding customers.<br>
+        <br>Our range of high-quality products includes pastries and cakes.<br>
+        <br>A high standard of excellence in our food is always guaranteed through the use of fresh ingredients.
+      </p>
+    </div>
+  </div> 
+
+  <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("image4");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2500); // Change image every 2.5 seconds
+    }
+  </script>
+
+  <div class="section">
+    <h1 id="ourfounders">Our Founders</h1>
+  </div>
+
+  <div class="row"></div>
+    <div class="column1">
+      <div class="card">
+        <img src="images/zaki.png" alt="Zaki" class="image3">
+        <div class="container">
+          <h2>Ahmad Zaki</h2>
+          <p class="title">CEO &amp; Founder</p>
+          <p>“I judge a restaurant by the bread and by the coffee.”</p>
+          <p>zakizndn@gmail.com</p>
+          <a href="mailto:zakizndn@gmail.com"> 
+            <p><button class="button button1">Email &#160 &#10140</button></p>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column1">
+      <div class="card">
+        <img src="images/thaqif.png" alt="Thaqif" class="image3">
+        <div class="container">
+          <h2>Muhammad Thaqif</h2>
+          <p class="title">CFO  &amp; Co-Founder</p>
+          <p>“No matter what historians claimed, BC really stood for 'Before Coffee.'”</p>
+          <p>thaqifazfar@gmail.com</p>
+          <a href="mailto:thaqifazfar@gmail.com"> 
+            <p><button class="button button1">Email &#160 &#10140</button></p>
+          </a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column1">
+      <div class="card">
+        <img src="images/thaqif.png" alt="Eirfan" class="image3">
+        <div class="container">
+          <h2>Muhammad Eirfan</h2>
+          <p class="title">COO &amp; Co-Founder</p>
+          <p>“Coffee smells like freshly ground heaven.”</p>
+          <p>eirfan@gmail.com</p>
+          <a href="mailto:zakizndn@gmail.com"> 
+            <p><button class="button button1">Email &#160 &#10140</button></p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer1">
+    <div class="column">
+      <h2>MENU</h2>
+      <a href="menu.html#drinks"><p>Drinks</p></a>
+      <a href="menu.html#food"><p>Food</p></a>
+    </div>
+    <div class="column">
+      <h2>PROMOTIONS</h2>
+      <a href="promotion.html#ourpromotions"><p>Our Promotions</p></a>
+      <h2>CONTACT</h2>
+      <a href="contact.html#ourstores"><p>Our Stores</p></a>
+    </div>
+    <div class="column">
+      <h2>ABOUT US</h2>
+      <a href="about.html#ourcompany"><p>Our Company</p></a>
+      <a href="about.html#ourproducts"><p>Our Products</p></a>
+      <a href="about.html#ourfounders"><p>Our Founders</p></a>
+    </div>
+    <div class="column">
+      <h2>FOLLOW US</h2>
+      <a href="https://www.instagram.com/" target="_blank"><p>Instagram</p></a>
+      <a href="https://twitter.com/home" target="_blank"><p>Twitter</p></a>
+      <a href="https://www.facebook.com/" target="_blank"><p>Facebook</p></a>
+    </div>
+  </div>
+
+  <div class="footer2">
+    <div class="left1">
+      <img src="images/logo1.png" class="image2">
+    </div>
+    <div class="right1">
+      <ul>
+        <li style="display:inline-block;">
+          <a href="#" target="_blank" style="text-decoration:none;"><h3>Privacy Policy</h3></a>
+        </li>
+        <li style="display:inline-block;">
+          <a href="#" target="_blank" style="text-decoration:none;"><h3>Terms and Conditions</h3></a>
+        </li>
+      </ul>
+      <h3>Copyright &#169 2022 Coffee Houz Cafe Sdn. Bhd. | All rights reserved.</h3>  
+    </div>
+  </div>
+</body>
+</html>
