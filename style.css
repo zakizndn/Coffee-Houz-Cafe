@@ -557,6 +557,53 @@ figure:hover+span {
 
 
 /* Responsive layout */
+    
+/* Desktop */
+/* Adjustments */
+@media screen and (min-width: 1980px) {
+    #drinks {
+        scroll-margin-top: 230px;
+    }
+    #frappuccino {
+        scroll-margin-top: 210px;
+    }
+    #hotcoffees {
+        scroll-margin-top: 210px;
+    }
+    #coldcoffees {
+        scroll-margin-top: 210px;
+    }
+    #food {
+        scroll-margin-top: 230px;
+    }
+    #cakes {
+        scroll-margin-top: 210px;
+    }
+    #pastries {
+        scroll-margin-top: 210px;
+    }
+    #buns {
+        scroll-margin-top: 210px;
+    }
+    #organicbreads {
+        scroll-margin-top: 210px;
+    }
+    #ourpromotions {
+        scroll-margin-top: 200px;
+    }
+    #ourstores {
+        scroll-margin-top: 200px;
+    }
+    #ourcompany {
+        scroll-margin-top: 200px;
+    }
+    #ourproducts{
+        scroll-margin-top: 200px;
+    }
+    #ourfounders {
+        scroll-margin-top: 200px;
+    }
+}
 /* Laptop */
 @media screen and (max-width: 1024px) {
     h1 {
@@ -590,6 +637,49 @@ figure:hover+span {
         margin-left: 1rem;
         margin-right: 1rem;
     }
+    /* Adjustments */
+    #drinks {
+        scroll-margin-top: 150px;
+    }   
+    #frappuccino {
+        scroll-margin-top: 150px;
+    }
+    #hotcoffees {
+        scroll-margin-top: 150px;
+    }
+    #coldcoffees {
+        scroll-margin-top: 150px;
+    }
+    #food {
+        scroll-margin-top: 150px;
+    }
+    #cakes {
+        scroll-margin-top: 150px;
+    }
+    #pastries {
+        scroll-margin-top: 150px;
+    }
+    #buns {
+        scroll-margin-top: 150px;
+    }
+    #organicbreads {
+        scroll-margin-top: 150px;
+    }
+    #ourpromotions {
+        scroll-margin-top: 140px;
+    }
+    #ourstores {
+        scroll-margin-top: 140px;
+    }
+    #ourcompany {
+        scroll-margin-top: 140px;
+    }
+    #ourproducts{
+        scroll-margin-top: 140px;
+    }
+    #ourfounders {
+        scroll-margin-top: 140px;
+    }
 }
 /* iPad */
 @media screen and (max-width: 900px) {
@@ -598,6 +688,49 @@ figure:hover+span {
     }
     .navbar1 nav {
         padding-left: 30px;
+    }
+    /* Adjustments */
+    #drinks {
+        scroll-margin-top: 160px;
+    }   
+    #frappuccino {
+        scroll-margin-top: 140px;
+    }
+    #hotcoffees {
+        scroll-margin-top: 140px;
+    }
+    #coldcoffees {
+        scroll-margin-top: 140px;
+    }
+    #food {
+        scroll-margin-top: 160px;
+    }
+    #cakes {
+        scroll-margin-top: 140px;
+    }
+    #pastries {
+        scroll-margin-top: 140px;
+    }
+    #buns {
+        scroll-margin-top: 140px;
+    }
+    #organicbreads {
+        scroll-margin-top: 140px;
+    }
+    #ourpromotions {
+        scroll-margin-top: 140px;
+    }
+    #ourstores {
+        scroll-margin-top: 140px;
+    }
+    #ourcompany {
+        scroll-margin-top: 140px;
+    }
+    #ourproducts{
+        scroll-margin-top: 140px;
+    }
+    #ourfounders {
+        scroll-margin-top: 140px;
     }
 }
 @media screen and (max-width: 820px) {
@@ -685,4 +818,47 @@ figure:hover+span {
     .navbar1 nav ul li a {
         font-size: 1px;
     } 
+    /* Adjustments */
+    #drinks {
+        scroll-margin-top: 110px;
+    }   
+    #frappuccino {
+        scroll-margin-top: 110px;
+    }
+    #hotcoffees {
+        scroll-margin-top: 110px;
+    }
+    #coldcoffees {
+        scroll-margin-top: 110px;
+    }
+    #food {
+        scroll-margin-top: 110px;
+    }
+    #cakes {
+        scroll-margin-top: 110px;
+    }
+    #pastries {
+        scroll-margin-top: 110px;
+    }
+    #buns {
+        scroll-margin-top: 110px;
+    }
+    #organicbreads {
+        scroll-margin-top: 110px;
+    }
+    #ourpromotions {
+        scroll-margin-top: 50px;
+    }
+    #ourstores {
+        scroll-margin-top: 50px;
+    }
+    #ourcompany {
+        scroll-margin-top: 50px;
+    }
+    #ourproducts{
+        scroll-margin-top: 50px;
+    }
+    #ourfounders {
+        scroll-margin-top: 50px;
+    }
 } 
