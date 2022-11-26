@@ -351,6 +351,11 @@ figure:hover+span {
     width: 100%;
     display: block;
 }
+.youtube {
+    width: 640px;
+    height: 360px;
+    margin: auto;
+}
 .image {
     width: 100%;
     display: block;
@@ -658,6 +663,10 @@ figure:hover+span {
         -ms-flex: 100%;
         flex: 100%;
         max-width: 100%;
+    }
+    .youtube {
+        width: 320px;
+        height: 180px;
     }
     .navbar {
         height: 8vh;
