@@ -508,7 +508,7 @@ figure:hover+span {
 /* Responsive layout */
 
 /* Desktop - not consistent */
-@media screen and (max-width: 3000px) {
+@media screen and (max-width: 3000px) and (orientation: landscape) {
     body {
         background-image: url(images/background.jpg);
         background-attachment: fixed;
