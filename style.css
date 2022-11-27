@@ -605,7 +605,7 @@ figure:hover+span {
     }
 }
 /* Laptop */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (orientation: landscape) {
     h1 {
         font-size: 35px;
     }
@@ -682,7 +682,7 @@ figure:hover+span {
     }
 }
 /* iPad */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) and (orientation: portrait) {
     .logo {
         display: none;
     }
@@ -733,7 +733,8 @@ figure:hover+span {
         scroll-margin-top: 140px;
     }
 }
-@media screen and (max-width: 820px) {
+/*
+@media screen and (max-width: 1200px) and (orientation: landscape) {
     .row {   
         flex-direction: column;
     }
@@ -775,15 +776,110 @@ figure:hover+span {
     }
     .navbar1 {
         height: 5vh;
+        padding-left: 130px;
+    }
+    .details {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    #drinks {
+        scroll-margin-top: 200px;
+    }   
+    #frappuccino {
+        scroll-margin-top: 170px;
+    }
+    #hotcoffees {
+        scroll-margin-top: 170px;
+    }
+    #coldcoffees {
+        scroll-margin-top: 170px;
+    }
+    #food {
+        scroll-margin-top: 200px;
+    }
+    #cakes {
+        scroll-margin-top: 170px;
+    }
+    #pastries {
+        scroll-margin-top: 170px;
+    }
+    #buns {
+        scroll-margin-top: 170px;
+    }
+    #organicbreads {
+        scroll-margin-top: 170px;
+    }
+    #ourpromotions {
+        scroll-margin-top: 170px;
+    }
+    #ourstores {
+        scroll-margin-top: 170px;
+    }
+    #ourcompany {
+        scroll-margin-top: 170px;
+    }
+    #ourproducts{
+        scroll-margin-top: 170px;
+    }
+    #ourfounders {
+        scroll-margin-top: 170px;
+    }
+} 
+*/
+@media screen and (max-width: 820px) and (orientation: portrait){
+    .row {   
+        flex-direction: column;
+    }
+    .row1 {   
+        flex-direction: column-reverse;
+    }
+    .column {
+        width: 50%;
+    }
+    .column1 {
+        width: 100%;
+        display: block;
+    }
+    .right2 {
+        padding-top: 2.5rem;
+    }
+    .footer2 {
+        flex-direction: column;
+    }
+    .image1 {
+        width: 25%;
+    }
+    .image2 {
+        padding-top: 10px;
+        width: 15%;
+        margin-left: 0;
+    }
+    .image3 {
+        width: 20%;
+    }
+    .navbar {
+        height: 7vh;
+    }
+    .navbar nav {
+        padding-left: 0px;
+    }
+    .navbar nav ul li a {
+        font-size: 10px;
+    }
+    .navbar1 {
+        margin-top: 7vh;
+        height: 3vh;
         padding-left: 30px;
     }
     .details {
         margin-left: 0.5rem;
         margin-right: 0.5rem;
     }
-} 
+
+}
 /* iPhone */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 425px) and (orientation: portrait){
     .column {
         width: 100%;
     }
@@ -802,7 +898,7 @@ figure:hover+span {
         height: 180px;
     }
     .navbar {
-        height: 8vh;
+        height: 5vh;
     }
     .navbar nav ul li{
         margin: 0px 5px;
@@ -812,7 +908,7 @@ figure:hover+span {
         padding: 0px 5px;
     } 
     .navbar1 {
-        margin-top: 8vh;
+        margin-top: 5vh;
         padding-left: 0;
     }
     .navbar1 nav ul li a {
