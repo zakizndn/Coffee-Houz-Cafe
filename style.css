@@ -1,4 +1,4 @@
-/* Written By Ahmad Zaki, Muhammad Eirfan, and Muhammad Thaqif */
+/* Written By Ahmad Zaki */
 
 *{
     margin: 0;
@@ -816,7 +816,7 @@ figure:hover+span {
         padding-left: 0;
     }
     .navbar1 nav ul li a {
-        font-size: 1px;
+        font-size: 10px;
     } 
     /* Adjustments */
     #drinks {
