@@ -606,6 +606,9 @@ figure:hover+span {
 }
 /* Laptop */
 @media screen and (max-width: 1024px) and (orientation: landscape) {
+    body {
+        background-color: #e9dccd;
+    }
     h1 {
         font-size: 35px;
     }
@@ -683,6 +686,9 @@ figure:hover+span {
 }
 /* iPad */
 @media screen and (max-width: 900px) and (orientation: portrait) {
+    body {
+        background-color: #e9dccd;
+    }
     .logo {
         display: none;
     }
@@ -828,6 +834,9 @@ figure:hover+span {
 } 
 */
 @media screen and (max-width: 820px) and (orientation: portrait){
+    body {
+        background-color: #e9dccd;
+    }
     .row {   
         flex-direction: column;
     }
@@ -880,6 +889,12 @@ figure:hover+span {
 }
 /* iPhone */
 @media screen and (max-width: 425px) and (orientation: portrait){
+    body {
+        background-color: #e9dccd;
+    }
+    .image6 {
+        width: 50%;
+    }
     .column {
         width: 100%;
     }
