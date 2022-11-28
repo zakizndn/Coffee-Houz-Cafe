@@ -7,6 +7,13 @@
 }
 
 body {
+    /*
+    background-image: url(images/background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    */
     font-family: optima, sans-serif;
     font-weight: 200;
     font-size: 1.2rem;
@@ -509,13 +516,6 @@ figure:hover+span {
 
 /* Desktop - not consistent */
 @media screen and (max-width: 3000px) and (orientation: landscape) {
-    body {
-        background-image: url(images/background.jpg);
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
     /* Adjustments */
     #drinks {
         scroll-margin-top: 170px;
@@ -562,92 +562,6 @@ figure:hover+span {
 }
 
 /* iPad Air */
-@media screen and (max-width: 1200px) and (orientation: landscape) {
-    body {
-        background-image: url(images/background.jpg);
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .image6 {
-        width: 15%;
-    }
-    h1 {
-        font-size: 35px;
-    }
-    h2 {
-        font-size: 25px;
-    }
-    h3 {
-        font-size: 20px;
-    }
-    h4 {
-        font-size: 15px;
-    }
-    p {
-        font-size: 20px;
-    }
-    .box1 {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .box2 {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .box3 {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    .box4 {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-    /* Adjustments */
-    #drinks {
-        scroll-margin-top: 170px;
-    }   
-    #frappuccino {
-        scroll-margin-top: 170px;
-    }
-    #hotcoffees {
-        scroll-margin-top: 170px;
-    }
-    #coldcoffees {
-        scroll-margin-top: 170px;
-    }
-    #food {
-        scroll-margin-top: 170px;
-    }
-    #cakes {
-        scroll-margin-top: 170px;
-    }
-    #pastries {
-        scroll-margin-top: 170px;
-    }
-    #buns {
-        scroll-margin-top: 170px;
-    }
-    #organicbreads {
-        scroll-margin-top: 170px;
-    }
-    #ourpromotions {
-        scroll-margin-top: 160px;
-    }
-    #ourstores {
-        scroll-margin-top: 160px;
-    }
-    #ourcompany {
-        scroll-margin-top: 160px;
-    }
-    #ourproducts{
-        scroll-margin-top: 160px;
-    }
-    #ourfounders {
-        scroll-margin-top: 160px;
-    }
-}
 @media screen and (max-width: 900px) and (orientation: portrait) {
     body {
         background-color: #e9dccd7e;
@@ -769,11 +683,115 @@ figure:hover+span {
         scroll-margin-top: 140px;
     }
 }
+@media screen and (min-width: 1000px) and (orientation: landscape) {
+    body {
+        background-image: url(images/background.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .image6 {
+        width: 15%;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    p {
+        font-size: 20px;
+    }
+    .box1 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .box2 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .box3 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .box4 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    /* Adjustments */
+    #drinks {
+        scroll-margin-top: 170px;
+    }   
+    #frappuccino {
+        scroll-margin-top: 170px;
+    }
+    #hotcoffees {
+        scroll-margin-top: 170px;
+    }
+    #coldcoffees {
+        scroll-margin-top: 170px;
+    }
+    #food {
+        scroll-margin-top: 170px;
+    }
+    #cakes {
+        scroll-margin-top: 170px;
+    }
+    #pastries {
+        scroll-margin-top: 170px;
+    }
+    #buns {
+        scroll-margin-top: 170px;
+    }
+    #organicbreads {
+        scroll-margin-top: 170px;
+    }
+    #ourpromotions {
+        scroll-margin-top: 160px;
+    }
+    #ourstores {
+        scroll-margin-top: 160px;
+    }
+    #ourcompany {
+        scroll-margin-top: 160px;
+    }
+    #ourproducts{
+        scroll-margin-top: 160px;
+    }
+    #ourfounders {
+        scroll-margin-top: 160px;
+    }
+}
 
 /* iPhone 12 pro*/
-@media screen and (max-width: 425px) and (orientation: portrait){
+@media screen and (max-width: 425px) and (orientation: portrait) {
     body {
         background-color: #e9dccd7e;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .footer2 h3 {
+        font-size: 15px;
+    }
+    .image2 {
+        width: 25%;
     }
     .image6 {
         width: 50%;
@@ -792,20 +810,20 @@ figure:hover+span {
         max-width: 100%;
     }
     .box1 {
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
     }
     .box2 {
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
     }
     .box3 {
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
     }
     .box4 {
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
     }
     .youtube {
         width: 320px;
@@ -824,6 +842,118 @@ figure:hover+span {
     .navbar1 {
         margin-top: 5vh;
         padding-left: 0px;
+    }
+    .navbar1 nav {
+        padding-left: 0px;
+    }
+    .navbar1 nav ul li a {
+        font-size: 10px;
+    } 
+    /* Adjustments */
+    #drinks {
+        scroll-margin-top: 110px;
+    }   
+    #frappuccino {
+        scroll-margin-top: 110px;
+    }
+    #hotcoffees {
+        scroll-margin-top: 110px;
+    }
+    #coldcoffees {
+        scroll-margin-top: 110px;
+    }
+    #food {
+        scroll-margin-top: 110px;
+    }
+    #cakes {
+        scroll-margin-top: 110px;
+    }
+    #pastries {
+        scroll-margin-top: 110px;
+    }
+    #buns {
+        scroll-margin-top: 110px;
+    }
+    #organicbreads {
+        scroll-margin-top: 110px;
+    }
+    #ourpromotions {
+        scroll-margin-top: 50px;
+    }
+    #ourstores {
+        scroll-margin-top: 50px;
+    }
+    #ourcompany {
+        scroll-margin-top: 50px;
+    }
+    #ourproducts{
+        scroll-margin-top: 50px;
+    }
+    #ourfounders {
+        scroll-margin-top: 50px;
+    }
+} 
+@media screen and (max-width: 900px) and (orientation: landscape) {
+    body {
+        background-color: #e9dccd7e;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .image1 {
+        width: 30%;
+    }
+    .image6 {
+        width: 20%;
+    }
+    .card {
+        height: 350px;
+    }
+    .box1 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .box2 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .box3 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .box4 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .youtube {
+        width: 640px;
+        height: 320px;
+    }
+    .logo {
+        display: none;
+    }
+    .navbar {
+        height: 10vh;
+    }
+    .navbar nav ul li{
+        margin: 0px 5px;
+    }
+    .navbar nav ul li a {
+        letter-spacing: 1px;
+        padding: 0px 10px;
+    } 
+    .navbar1 {
+        margin-top: 10vh;
+        padding-left: 40px;
     }
     .navbar1 nav {
         padding-left: 0px;
