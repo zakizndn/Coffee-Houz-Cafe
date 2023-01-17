@@ -22,10 +22,10 @@ Website Criteria:
 ![image](https://user-images.githubusercontent.com/117178074/212964385-420c061f-44b0-42ed-a1ce-e20c3d089c4b.png)
 
 ### About
-![image](https://user-images.githubusercontent.com/117178074/212964455-38b46afc-474b-4981-b136-1a9841665118.png)
+![image](https://user-images.githubusercontent.com/117178074/212964423-c9fb872b-16c3-4d3a-bd41-788ef04386bc.png)
 
 ### Contact
-![image](https://user-images.githubusercontent.com/117178074/212964423-c9fb872b-16c3-4d3a-bd41-788ef04386bc.png)
+![image](https://user-images.githubusercontent.com/117178074/212964455-38b46afc-474b-4981-b136-1a9841665118.png)
 
 ### Footer
 ![image](https://user-images.githubusercontent.com/117178074/212964480-81b05b04-7c96-4bf4-84ab-8da2972c18a2.png)
