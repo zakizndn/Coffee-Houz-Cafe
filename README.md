@@ -11,3 +11,5 @@ Website Criteria:
 - Website contains video promotion of selected product/service
 - Website has informative content on the product/service provided by the company
 - Website is hosted on the remote or cloud server 
+
+![Uploading Screenshot 2023-01-18 at 12.57.54 AM.png…]()
