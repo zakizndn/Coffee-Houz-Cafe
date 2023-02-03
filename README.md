@@ -3,7 +3,7 @@ ECE3086 - Multimedia Technology and Applications
 
 Project Title: Design website for a business enterprise to promote a new innovative product or service. 
 
-Website link: https://zakizndn.github.io/CoffeeHouzCafe/
+Website link: https://zakizndn.github.io/Website_Design/
 
 Website Criteria:
 - Website functionality (minimum 5 webpages)
