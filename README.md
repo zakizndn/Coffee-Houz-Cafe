@@ -14,7 +14,7 @@ Website Criteria:
 [Coffee Houz Cafe](https://zakizndn.github.io/Website_Design/)
 
 ## Final Report
-[Report](https://github.com/zakizndn/Website_Design/files/12138006/Assignment.2.pdf)
+[Report](https://github.com/zakizndn/Website_Design/files/12138006/Report.pdf)
 
 ## Preview 
 ### Home
