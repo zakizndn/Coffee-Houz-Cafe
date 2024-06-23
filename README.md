@@ -1,7 +1,7 @@
 # Coffee Houz Cafe
 ECE3086 - Multimedia Technology and Applications 
 
-Project Title: Design website for a business enterprise to promote a new innovative product or service. 
+Design website for a business enterprise to promote a new innovative product or service. 
 
 Website Criteria:
 - Website functionality (minimum 5 webpages)
