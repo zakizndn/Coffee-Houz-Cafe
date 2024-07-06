@@ -11,7 +11,7 @@ Website Criteria:
 - Website is hosted on the remote or cloud server 
 
 ## Website Link
-[Coffee Houz Cafe](https://zakizndn.github.io/Website_Design/)
+[Coffee Houz Cafe](https://zakizndn.github.io/Coffee-Houz-Cafe/)
 
 ## Preview 
 ### Home
